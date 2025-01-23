@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -61,6 +62,30 @@ public class Labtaskjava {
         }
         else{
             System.out.println("not palindrome :((( ");
+        }
+        Scanner sc3 = new Scanner(System.in);
+        System.out.println("enter a sentence to check if it's a palindrome: ");
+        String sentence = sc3.nextLine();
+        System.out.println("sentence = " + sentence);
+
+
+
+        String[] words = sentence.split(" ");
+        String reverseSentence = "";
+
+        for (int i = words.length - 1; i >= 0; i--) {
+            reverseSentence += words[i];
+            if (i != 0) {
+                reverseSentence += " ";
+            }
+        }
+
+        System.out.println("reversed sentence = " + reverseSentence);
+        if (sentence.equals(reverseSentence)) {
+            System.out.println("palindrome sentence:)");
+        }
+        else{
+            System.out.println("not a palindrome sentence:(( ");
         }
 
     }
