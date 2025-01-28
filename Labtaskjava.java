@@ -85,7 +85,7 @@ public class Labtaskjava {
         }
 
         System.out.println("reversed sentence = " + reverseSentence);
-        if (sentence == reverseSentence) {
+        if (sentence.equals(reverseSentence)) {
             System.out.println("palindrome sentence:)");
         }
         else{
