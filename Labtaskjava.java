@@ -54,6 +54,7 @@ public class Labtaskjava {
         Scanner sc2 = new Scanner(System.in);
         System.out.println("enter a number or a word to check if it's a palindrome: ");
         String word = sc2.nextLine();
+
         String reverse = "";
         for (int i = word.length() - 1; i >= 0; i--) {
             reverse += word.charAt(i);
