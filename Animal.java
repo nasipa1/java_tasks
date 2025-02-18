@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+
+import tools.Tool;
+
 public class Animal {
     private String name;
     private int age;
@@ -93,8 +97,21 @@ class Animals {
         animal2.eat();
         animal3.eat();
 
+        System.out.println(animal2 instanceof Dog);
 
 
+        Tool t = new Tool();
+        t.y = 4;
+        ArrayList<Integer> list = new ArrayList<>();
+        String s = new String();
+
+
+
+    }
+}
+class TTTool extends Tool{
+    public TTTool() {
+        this.x = 3;
     }
 }
 
