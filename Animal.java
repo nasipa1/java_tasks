@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-import tools.Tool;
+//import tools.Tool;
 
 public class Animal {
     private String name;
@@ -100,19 +100,19 @@ class Animals {
         System.out.println(animal2 instanceof Dog);
 
 
-        Tool t = new Tool();
-        t.y = 4;
-        ArrayList<Integer> list = new ArrayList<>();
-        String s = new String();
-
+//        Tool t = new Tool();
+//        t.y = 4;
+//        ArrayList<Integer> list = new ArrayList<>();
+//        String s = new String();
+//
 
 
     }
 }
-class TTTool extends Tool{
-    public TTTool() {
-        this.x = 3;
-    }
-}
+//class TTTool extends Tool{
+//    public TTTool() {
+//        this.x = 3;
+//    }
+//}
 
 
